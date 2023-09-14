@@ -17,134 +17,148 @@
       content="Eini veitingarstaðinn sem leyfir þér að reykja inni"
     />
     <meta property="og:image" content="../img/sharing.jpg" />
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div class="sr-only"><a href="#section-1">Beint í efni</a><br /></div>
     <header>
       <h1>Pantanir</h1>
       <p>Pantaðu borð eða við komum heim til þín...</p>
     </header>
     <nav>
       <ul>
-        <li><a href="/index.html">Til baka á forsíðu.</a></li>
-        
-        <li><a href="um.html">Um okkur.</a></li>
-        
-        <li><a href="matsedill.html">Skoða matseðil.</a></li>
-        
-        <li><a href="pontun.html">Pantanir.</a></li>
+        <li><a href="/index.html">Forsíða</a></li>
+
+        <li><a href="um.html">Um okkur</a></li>
+
+        <li><a href="matsedill.html">Skoða matseðil</a></li>
+
+        <li>Pantanir</li>
       </ul>
     </nav>
-    <a href="#section-1">Beint í efni</a><br />
 
-    <section>
-      <h3>Panta Borð</h3>
-      <form>
-        <label>
-          Hvenær viltu koma ?
-          <input type="datetime-local" />
-        </label>
-      </form>
-      <form>
-        <label>
-          Hvað eruð þið mörg ?
-          <select>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
-            <option>9</option>
-            <option>10</option>
-          </select>
-        </label>
-      </form>
-      <form>
-        <label>
-          Eitthvað annað sem þið viljið koma á framfæri ?
-          <input type="text" />
-        </label>
-      </form>
-    </section>
+    <div class="order">
+      <fieldset>
+        <legend>Panta borð</legend>
+        <form>
+          <label>
+            Hvenær viltu koma ?
+            <input type="datetime-local" />
+          </label>
+        </form>
+        <form>
+          <label>
+            Hvað eruð þið mörg ?
+            <select>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+            </select>
+          </label>
+        </form>
+        <form>
+          <label>
+            Eitthvað annað sem þið viljið koma á framfæri ?
+            <input type="text" />
+          </label>
+        </form>
+      </fieldset>
 
-    <section>
-      <h3>Panta mat</h3>
-      <form>
-        <label>
-          Hvað má bjóða þér ?
-          <select>
-            <option>Grísa og Rækju Momo</option>
-            <option>Rækju Baozi</option>
-            <option>Sveppa Gyoza</option>
-            <option>Edamame Baunir</option>
-            <option>Nauta Jaiozi</option>
-          </select>
-        </label>
-      </form>
-      <form>
-        <label>
-          Hvert eigum við að senda ?
-          <input type="text" />
-        </label>
-      </form>
-    </section>
+      <fieldset>
+        <legend>Panta mat</legend>
+        <form>
+          <label>
+            Hvað má bjóða þér ?
+            <select>
+              <option>Grísa og Rækju Momo</option>
+              <option>Rækju Baozi</option>
+              <option>Sveppa Gyoza</option>
+              <option>Edamame Baunir</option>
+              <option>Nauta Jaiozi</option>
+            </select>
+          </label>
+        </form>
+        <form>
+          <label>
+            Hvert eigum við að senda ?
+            <input type="text" />
+          </label>
+        </form>
+      </fieldset>
 
-    <section>
-      <h3>Þínar upplýsingar</h3>
-      <form>
-        <label>
-          Nafn:
-          <input required type="text" />
-        </label>
-      </form>
-      <form>
-        <label>
-          Netfang:
-          <input required type="text" placeholder="bumbubolti@netscape.net" />
-        </label>
-      </form>
-      <form>
-        <label>
-          Sími:
-          <input required type="text" placeholder="+354 581 2345" />
-        </label>
-      </form>
-    </section>
+      <fieldset>
+        <legend>Þínar upplýsingar</legend>
+        <form>
+          <label>
+            Nafn:
+            <input required type="text" />
+          </label>
+        </form>
+        <form>
+          <label>
+            Netfang:
+            <input required type="text" placeholder="bumbubolti@netscape.net" />
+          </label>
+        </form>
+        <form>
+          <label>
+            Sími:
+            <input required type="text" placeholder="+354 581 2345" />
+          </label>
+        </form>
+      </fieldset>
 
-    <section>
-      <h3>Samþykkja og panta</h3>
-      <form>
-        <label>
-          Ég samþykki skilmála Lorem Dim Sum og sjálfstæði Katalóníu
-          <input name="register" type="checkbox" />
-        </label>
-      </form>
-      <form>
-        <button>Panta</button>
-      </form>
-    </section>
+      <fieldset>
+        <legend>Samþykkja og panta</legend>
+        <form>
+          <label>
+            Ég samþykki skilmála Lorem Dim Sum og sjálfstæði Katalóníu
+            <input name="register" type="checkbox" />
+          </label>
+        </form>
+        <form>
+          <button>Panta</button>
+        </form>
+      </fieldset>
+    </div>
 
     <p><a href="/index.html">Afur á forsíðu</a></p>
     <footer>
-      <h2>Opnunartími</h2>
-      <dl>
-        <dt>Frá mánudegi til fimmtudags:</dt>
-        <dd>16:00-23:00</dd>
-        <dt>Föstudaga:</dt>
-        <dd>18:00-24:00</dd>
-        <dt>Laugardaga:</dt>
-        <dd>19:00-5:00 nema þegar Newcastle er að spila.</dd>
-        <dt>Sunnudaga</dt>
-        <dd>Lokað.</dd>
-      </dl>
+      <div class="open-t">
+        <h3>Opnunartími</h3>
+        <dl>
+          <dt>Frá mánudegi til fimmtudags:</dt>
+          <dd>16:00-23:00</dd>
+          <dt>Föstudaga:</dt>
+          <dd>18:00-24:00</dd>
+          <dt>Laugardaga:</dt>
+          <dd>19:00-5:00 nema þegar Newcastle er að spila.</dd>
+          <dt>Sunnudaga</dt>
+          <dd>Lokað.</dd>
+        </dl>
+      </div>
 
-      <p>
-        Lorem Dim Sum kommúnan Hverfisgata 113-115 Reykjavík, Síminn er +354 800
-        5005.
-      </p>
+      <div class="location">
+        <h3>Hvar erum við.</h3>
+
+        <p>Lorem Dim Sum kommúnan</p>
+        <p>Hverfisgata113-115 Reykjavík</p>
+        <p>Síminn: +354 800 5005.</p>
+        <p>michelsoft@bimbows.ca</p>
+      </div>
     </footer>
   </body>
 </html>

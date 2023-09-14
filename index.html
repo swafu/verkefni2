@@ -9,33 +9,38 @@
     <meta property="og:image" content="/img/sharing.jpg">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1><em>Lorem Dim Sum</em></h1>
+      <h1><strong>Lorem Dim Sum</strong></h1>
 
       <p>
-        Velkominn á veitingarstaðinn Lorem Dim Sum, staðurinn sem heldur utan um
-        þig
+        Velkominn á  Lorem Dim Sum, staðurinn sem heldur utan um
+        þig. 
       </p>
     </header>
     <nav>
       <ul>
-        <li><a href="/index.html">Til baka á forsíðu.</a></li>
+        <li>Forsíða</li>
         
-        <li><a href="sidur/um.html">Um okkur.</a></li>
+        <li><a href="sidur/um.html">Um okkur</a></li>
         
-        <li><a href="sidur/matsedill.html">Skoða matseðil.</a></li>
+        <li><a href="sidur/matsedill.html">Skoða matseðil</a></li>
         
-        <li><a href="sidur/pontun.html">Pantanir.</a></li>
+        <li><a href="sidur/pontun.html">Pantanir</a></li>
       </ul>
     </nav> 
+    <div class="sr-only">
     <a href="#section-1">Beint í efni</a><br />
+  </div>
 
     <div class="main">
     <section>
-      <h2><em>Lorem Dim Sum</em></h2>
-      <p><em>Opnunartími</em></p>
+      <h3>Opnunartími</h3>
+      
       <dl>
       <dt>Frá mánudegi til fimmtudags:</dt>
       <dd>16:00-23:00 </dd>
@@ -68,35 +73,52 @@
     <section>
 
       <h3>Panta</h3>
-      <p>Pantaðu borð, eða við komum heim til þín !!!!</p>
+      <p>Pantaðu borð, eða við komum heim til þín!!!!</p>
       <a href="sidur/pontun.html">Sækja um mat.</a>
 
     </section>
   </div class="main">
+
     <div class="food">
   <section>
 
       <h3>Vinsælir réttir.</h3>
       <dl>
+        <div>
         <dt>Rækju Baozi</dt>
         <dd>Baozi með risarækjum og teryiaki sósu.</dd>
         <dd>2.499 kr.</dd>
+        <dd><a href="sidur/pontun.html">Panta</a></dd>
+      </div>
+      <div>
         <dt>Grísa og Rækju Momo</dt>
         <dd>Momo með risarækjum og rifnum grís í szechuan sósu.</dd>
         <dd>2.999 kr.</dd>
+        <dd><a href="sidur/pontun.html">Panta</a></dd>
+      </div>
+      <div>
         <dt>Sveppa Gyoza</dt>
         <dd>Gyoza með shitake sveppum og chilli olíu.</dd>
         <dd>1.499 kr.</dd>
+        <dd><a href="sidur/pontun.html">Panta</a></dd>
+      </div>
+      <div>
+        <dt>Edamame baunir.</dt>
+        <dd>Soðnar edamame baunir með sesamfræum.</dd>
+        <dd>1.499 kr.</dd>
+        <dd><a href="sidur/pontun.html">Panta</a></dd>
+      </div>
 
       </dl>
     </section>
   </div>
   </main>
     
-    <p><a href="index.html">Afur á forsíðu</a></p>
+   
     
     <footer>
-      <h2>Opnunartími</h2>
+      <div class="open-t">
+      <h3>Opnunartími</h3>
       <dl>
       <dt>Frá mánudegi til fimmtudags:</dt>
       <dd>16:00-23:00 </dd>
@@ -107,11 +129,17 @@
       <dt>Sunnudaga</dt>
       <dd>Lokað.</dd>
       </dl>
+    </div>
 
-      <p>
-        Lorem Dim Sum kommúnan Hverfisgata 113-115 Reykjavík, Síminn er +354 800
-        5005.
-      </p>
+<div class="location">
+      <h3>Hvar erum við?</h3>
+      
+        <p>Lorem Dim Sum kommúnan </p>
+        <p>Hverfisgata113-115 Reykjavík</p>
+        <p> Síminn: +354 800 5005.</p>
+        <p>michelsoft@bimbows.ca</p>
+      
+    </div>
     </footer>
   </body>
 </html>

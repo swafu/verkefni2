@@ -2,6 +2,17 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Lora;
+
+  max-width: 900px;
+}
+
+a {
+  color: #000;
+}
+
+p {
+  font-size: 16px;
 }
 
 header {
@@ -10,6 +21,7 @@ header {
   color: #fff1cf;
   border-bottom: 8px solid #ffe7ae;
   padding: 1rem;
+  font-weight: 700;
 }
 
 nav {
@@ -19,36 +31,189 @@ nav {
 }
 nav li {
   display: inline-block;
+  font-weight: bold;
 }
 nav ul li {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  a {
-    color: #2f0505;
-  }
+}
+nav a {
+  color: #2f0505;
 }
 
+h2 {
+  font-weight: 700;
+}
+h3 {
+  font-weight: 700;
+}
 
+dt {
+  font-weight: 700;
+}
+legend {
+  font-weight: 700;
+}
+
+.main {
+  margin: 3rem;
+}
 .main section {
-    
-    width: 49%;
-   vertical-align: text-top;
-    padding: 2rem;
-    display: inline-block;
-    background-color: aliceblue;
-    
-    
+  width: 49%;
+  vertical-align: top;
+  padding-top: 2rem;
+  display: inline-block;
 }
 
-
- .food dl   dt ~ dd  {
-    display: inline-block;
-    background-color: antiquewhite;
+.main section dt {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
+.main section p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
+.food {
+  border-top: solid #ffe7ae;
+  border-bottom: solid #ffe7ae;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 3rem;
+}
 
+.food h3 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
 
+.food dl div {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 1rem;
+}
+
+.food dl dd {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.um {
+  padding: 2rem;
+}
+.um h2 {
+  padding-bottom: 2rem;
+}
+.starfsfolk {
+  display: inline-block;
+  padding: 2rem;
+  border-bottom: solid #ffe7ae;
+  margin: 2rem;
+}
+.starfsfolk h2 {
+  padding-bottom: 1rem;
+}
+
+.starfsfolk h3 {
+  padding-bottom: 1rem;
+}
+/* Vona að það hafi verið í lagi að nota object fit*/
+.starfsfolk img {
+  width: 95%;
+
+  max-height: 500px;
+  text-align: center;
+  object-fit: cover;
+}
+.jeg {
+  display: inline-block;
+
+  width: 49%;
+}
+
+.benni {
+  display: inline-block;
+
+  width: 49%;
+
+  vertical-align: top;
+}
+
+.anna {
+  display: inline-block;
+
+  width: 49%;
+  vertical-align: top;
+  padding-top: 1rem;
+}
+
+.torkell {
+  display: inline-block;
+  padding-top: 1rem;
+  width: 49%;
+}
+
+.menu table {
+  margin: 3rem;
+  border-spacing: 0;
+}
+
+.menu table tr td {
+  padding: 0.5rem;
+}
+
+.menu table tr:nth-child(2n + 2) {
+  background-color: #ffe7ae;
+}
+/* Fattaði ekki alveg hvað hann vildi í verkefni 2
+en fannst vera svo ljótt að setja upp 5 dálka */
+.order {
+  margin-left: 3rem;
+}
+.order fieldset {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+
+  min-height: 275px;
+  border-spacing: 0;
+  border: solid #ffe7ae 2px;
+  margin: 0.5rem;
+}
+
+.order form {
+  padding: 1rem;
+}
+
+.order form input {
+  padding: 0.5rem;
+}
+
+footer {
+  background-color: #2f0505;
+  color: #ffe7ae;
+  text-align: center;
+  padding: 2rem;
+  border-top: #ffe7ae solid 8px;
+}
+.open-t {
+  display: inline-block;
+  width: 49%;
+  vertical-align: text-top;
+}
+.open-t dt {
+  padding: 1rem;
+}
+.location {
+  display: inline-block;
+  width: 49%;
+  vertical-align: text-top;
+}
+.location p {
+  padding: 0.5rem;
+}
 
 /* Reiknum stærð á öllum boxum sem border-box */
 html {
